@@ -6,7 +6,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       behavior: 'smooth'
     });
   });
-}
+});
 
 // Form submission handling
 document.getElementById('contact-form').addEventListener('submit', function (e) {
